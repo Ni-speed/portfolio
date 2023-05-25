@@ -1,0 +1,15 @@
+
+.footerBlock {
+    background-color: #3dd932;
+    display: flex;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+}
+.footerContainer {
+    background-color: #3dd932;
+}
+
+

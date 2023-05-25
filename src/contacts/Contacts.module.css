@@ -1,0 +1,7 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: #b432d9;
+}
+.contactsBlock p {
+    margin: 0 70px;
+}

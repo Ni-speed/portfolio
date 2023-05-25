@@ -1,0 +1,22 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #ecb4cd;
+}
+.container {
+    border: 1px solid ;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text {
+    width: 300px;
+    background-color: #ead980;
+}
+.photo {
+width: 300px;
+    height: 400px;
+    background-color: #ead980;
+}
