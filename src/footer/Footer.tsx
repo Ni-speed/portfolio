@@ -13,7 +13,7 @@ export const Footer = () => {
                 <Icon title={'Telegram'}/>
                 <Icon title={'HH'}/>
             </div>
-            <h6>@2023 Все права защищены</h6>
+            <h6>@2023 Все права защищеныd</h6>
         </div>
     );
 };
