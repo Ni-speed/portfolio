@@ -33,21 +33,13 @@ export const Contacts = () => {
                                    {...formik.getFieldProps('input1')}
 
                         />
-                        {/*{formik.touched.input1 && formik.errors.input1 &&*/}
-                        {/*    <div style={{color: 'red'}}>{formik.errors.input1}</div>}*/}
-
                         <TextField type="input"
                                    label="input2"
                                    margin="normal"
                                    {...formik.getFieldProps('input2')}
                         />
-                        {/*<TextField type="text"*/}
-                        {/*           label="text"*/}
-                        {/*           margin="normal"*/}
-                        {/*           {...formik.getFieldProps('text')}*/}
-                        {/*/>*/}
-
                         <TextField
+                            fullWidth
                             id="filled-multiline-static"
                             label="text"
                             multiline
@@ -56,9 +48,6 @@ export const Contacts = () => {
                             variant="filled"
                             {...formik.getFieldProps('text')}
                         />
-                        {/*{formik.touched.input2 && formik.errors.input2 &&*/}
-                        {/*    <div style={{color: 'red'}}>{formik.errors.input2}</div>}*/}
-
                         <Button type={'submit'} variant={'contained'} color={'primary'}>
                             Отправить
                         </Button>

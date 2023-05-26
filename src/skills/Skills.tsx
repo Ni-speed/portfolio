@@ -8,9 +8,14 @@ export const Skills = () => {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
-                <div className={style.skills}>
+                <div className={style.skillsBox}>
                     <Skill title={'JS'} description={'Текс 1 Текс 1 Текс 1 Текс 1 Текс 1 Текс 1 Текс 1 Текс 1 Текс 1 '}/>
                     <Skill title={'React'} description={'Текс 2 Текс 2 Текс 2 Текс 2 Текс 2 Текс 2 Текс 2 Текс 2  '}/>
+                    <Skill title={'Redux'} description={'Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3  '}/>
+                    <Skill title={'Redux'} description={'Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3  '}/>
+                    <Skill title={'Redux'} description={'Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3  '}/>
+                    <Skill title={'Redux'} description={'Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3  '}/>
+                    <Skill title={'Redux'} description={'Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3  '}/>
                     <Skill title={'Redux'} description={'Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3 Текс 3  '}/>
                 </div>
             </div>

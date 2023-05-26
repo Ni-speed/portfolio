@@ -1,17 +1,18 @@
 .projectBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #1537e7;
 }
 .projectContainer {
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-
+    justify-content: center;
+    min-height: 100vh;
 }
 .title {
     background-color: darkcyan;
+    text-align: center;
 }
-.project {
+.projectBox {
     border: 1px solid red;
     width: 100%;
     display: flex;
